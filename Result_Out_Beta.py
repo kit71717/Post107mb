@@ -2277,6 +2277,8 @@ pLUT = GetColorTransferFunction('P')
 # get opacity transfer function/opacity map for 'P'
 pPWF = GetOpacityTransferFunction('P')
 
+# Apply a preset using its name. Note this may not work as expected when presets have duplicate names.
+pLUT.ApplyPreset('Jet', True)
 
 wing_Analysis_100dat = FindSource('Wing_Analysis_1.00.dat')
 
@@ -2347,6 +2349,9 @@ pLUT = GetColorTransferFunction('P')
 
 # get opacity transfer function/opacity map for 'P'
 pPWF = GetOpacityTransferFunction('P')
+
+# Apply a preset using its name. Note this may not work as expected when presets have duplicate names.
+pLUT.ApplyPreset('Jet', True)
 
 # change representation type
 wing_Analysis_100datDisplay.SetRepresentationType('Surface')
