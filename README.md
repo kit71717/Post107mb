@@ -58,8 +58,7 @@ HOW TO RUN?
 	7) In the Menu Bar, click Macro -> click Result_Out.py
 	8) In the first window that pops up, input number of cross sections desired
 	9) In the subsequent windows that pops up, input the % - span location
-		- REMARK: There should be as many subsequent popup windows as the inputted
-cross section number
+		- REMARK: There should be as many subsequent popup windows as the inputted cross section number
 	10) Wait for Macro to run and obtain the desired Outputs.
 
 TECHNICAL FEASIBILITY / PROTOTYPE
