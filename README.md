@@ -82,6 +82,8 @@ Here is a sample output for the program. The sample output is based on CRM Wing 
 
 DESIGN / DEVELOPMENT
 ------------
+1) Add a feature that will allow the extraction of the same results for single input flo.case.1.##.dat files.
+	- Currently, the code works for 2 input files (for comparison purposes).
 
 CONFIGURATION
 ------------
